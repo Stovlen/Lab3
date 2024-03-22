@@ -1,34 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Shop:war" />
+      <artifact name="Shop:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="255ec345-c6d8-4d5b-b1a2-e029d0dbf3f6" name="Changes" comment="" />
+    <list default="true" id="255ec345-c6d8-4d5b-b1a2-e029d0dbf3f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/Firebase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/Firebase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/IndexView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/IndexView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/emptyPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/headerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/headerPartial.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2clA3eEskvJL7PlZZnhSHvojM63" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender configuration",
+    "Notification.DoNotAsk-WindowsDefender": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 10.1.19.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java Projects/Shop_kurs3/Shop/sql.sql",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\html" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\controller" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\Shop_kurs3\Shop" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\html" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\WEB-INF\js" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\WEB-INF\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Shop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/css">
+          <settings>
+            <option name="CONTEXT_PATH" value="/css" />
+          </settings>
+        </file>
+        <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/img">
+          <settings>
+            <option name="CONTEXT_PATH" value="/img" />
+          </settings>
+        </file>
+        <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/js">
+          <settings>
+            <option name="CONTEXT_PATH" value="/js" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8c267751-f352-4977-bab8-e1bf62636d57" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63108" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Shop:war exploded" />
+          <artifact name="Shop:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,7 +223,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708675597914</updated>
+      <workItem from="1708701148413" duration="1214000" />
+      <workItem from="1708703422702" duration="33000" />
+      <workItem from="1708891177652" duration="628000" />
+      <workItem from="1708927695393" duration="3689000" />
+      <workItem from="1708956662097" duration="3919000" />
+      <workItem from="1709100503903" duration="4426000" />
+      <workItem from="1709233328308" duration="74000" />
+      <workItem from="1709301166389" duration="5723000" />
+      <workItem from="1709486379687" duration="3320000" />
+      <workItem from="1709658155151" duration="197000" />
+      <workItem from="1709662849049" duration="3738000" />
+      <workItem from="1709705691961" duration="1857000" />
+      <workItem from="1709883574140" duration="4247000" />
+      <workItem from="1710137226073" duration="3298000" />
+      <workItem from="1710149019686" duration="2904000" />
+      <workItem from="1710165260792" duration="5152000" />
+      <workItem from="1710173859545" duration="455000" />
+      <workItem from="1710311084506" duration="3743000" />
+      <workItem from="1710449891348" duration="527000" />
+      <workItem from="1710487856567" duration="5074000" />
+      <workItem from="1710509369623" duration="4501000" />
+      <workItem from="1710687139140" duration="846000" />
+      <workItem from="1710700673153" duration="3558000" />
+      <workItem from="1710742289808" duration="3029000" />
+      <workItem from="1710878850537" duration="3201000" />
+      <workItem from="1710915540539" duration="3798000" />
+      <workItem from="1710925948028" duration="29000" />
+      <workItem from="1710940357764" duration="308000" />
+      <workItem from="1711094860707" duration="2159000" />
+      <workItem from="1711097029532" duration="925000" />
+      <workItem from="1711104418627" duration="1505000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="app.properties" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
