@@ -10,19 +10,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="255ec345-c6d8-4d5b-b1a2-e029d0dbf3f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+    <list default="true" id="255ec345-c6d8-4d5b-b1a2-e029d0dbf3f6" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/repository/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/repository/GoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/ViewConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/tea-1-1500x1500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/tea-2-1500x1500.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/CartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/Firebase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/Firebase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/IndexView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/IndexView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/emptyPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/headerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/html/headerPartial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/Firebase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Firebase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/IndexView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/footerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/footerPartial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/headerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/headerPartial.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +79,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.19.executor": "Debug",
+    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
+    "database.data.extractors.current.export.id": "SQL Inserts",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java Projects/Shop_kurs3/Shop/sql.sql",
+    "last_opened_file_path": "D:/Java Projects/Shop_kurs3/Shop/goods.sql",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,27 +92,31 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\htmlBuilder" />
       <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\html" />
       <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\controller" />
       <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\WEB-INF\img" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\htmlBuilder" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\view" />
       <recent name="D:\Java Projects\Shop_kurs3\Shop" />
       <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\html" />
-      <recent name="D:\Java Projects\Shop_kurs3\Shop\src" />
-      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\WEB-INF\js" />
-      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\WEB-INF\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,8 +269,28 @@
       <workItem from="1710940357764" duration="308000" />
       <workItem from="1711094860707" duration="2159000" />
       <workItem from="1711097029532" duration="925000" />
-      <workItem from="1711104418627" duration="1505000" />
+      <workItem from="1711104418627" duration="2563000" />
+      <workItem from="1711281848628" duration="1268000" />
+      <workItem from="1711311894786" duration="625000" />
+      <workItem from="1711347042272" duration="3760000" />
+      <workItem from="1711475953331" duration="1210000" />
+      <workItem from="1711520351674" duration="3241000" />
+      <workItem from="1711719614720" duration="4434000" />
+      <workItem from="1711906714250" duration="818000" />
+      <workItem from="1711947410179" duration="3429000" />
+      <workItem from="1711954763228" duration="2069000" />
+      <workItem from="1712076019322" duration="8000" />
+      <workItem from="1712087188879" duration="868000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <option name="closed" value="true" />
+      <created>1711106287018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711106287018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,9 +299,21 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="app.properties" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>

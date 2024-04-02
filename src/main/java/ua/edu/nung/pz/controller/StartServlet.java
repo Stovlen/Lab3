@@ -6,9 +6,11 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import ua.edu.nung.pz.model.Firebase;
-import ua.edu.nung.pz.model.User;
-import ua.edu.nung.pz.view.IndexView;
+import ua.edu.nung.pz.dao.entity.Firebase;
+import ua.edu.nung.pz.dao.entity.User;
+import ua.edu.nung.pz.dao.repository.UserRepository;
+import ua.edu.nung.pz.view.MainPage;
+import ua.edu.nung.pz.view.ViewConfig;
 
 import java.io.*;
 import java.util.Properties;
@@ -21,7 +23,6 @@ public class StartServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        String body = "";
         String context = "";
         HttpSession httpSession = request.getSession();
         User user = (User) httpSession.getAttribute(User.USER_SESSION_NAME);
@@ -31,10 +32,6 @@ public class StartServlet extends HttpServlet {
             case "/contacts":
                 context = "<h2>Our Contacts!</h2>\n";
                 break;
-            case "/login":
-                context = "<h2>Login!</h2>\n";
-                context += IndexView.getInstance().getLoginForm();
-                break;
             case "/forgotpassword":
                 context = "<h2>Restore Password!</h2>\n";
                 break;
@@ -42,13 +39,21 @@ public class StartServlet extends HttpServlet {
                 context = "<h2>Hello World from Servlet!</h2>\n";
         }
 
+        String builderPage = MainPage.Builder.newInstance()
+                .setTitle("Green Shop")
+                .setHeader(userName)
+                .setBody(context)
+                .setFooter()
+                .build()
+                .getFullPage();
 
-        body = IndexView.getInstance().getBody(
-                IndexView.getInstance().getHeader(userName),
-                IndexView.getInstance().getFooter(""),
-                context);
+        out.println(builderPage);
 
-        out.println(IndexView.getInstance().getPage("Green Shop", body));
+        // TODO remove test code
+        UserRepository userRepository = new UserRepository();
+        User user1 = userRepository.getUserByEmail("nafta@nung");
+        System.out.println(user1);
+
 
 //        user.setEmail("email1@email.com");
 //        user.setPassword("112211221122");
@@ -90,9 +95,10 @@ public class StartServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         super.init();
-        String path = getServletContext().getRealPath("html/");
-        IndexView indexView = IndexView.getInstance();
-        indexView.setPath(path);
+        String pathBuilder = getServletContext().getRealPath("htmlBuilder/");
+
+        ViewConfig viewConfig = ViewConfig.getInstance();
+        viewConfig.setPath(pathBuilder);
 
         initFirebase();
     }

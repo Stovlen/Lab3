@@ -13,3 +13,54 @@ create table users
         unique (email)
 );
 
+create table goods
+(
+    id          int auto_increment
+        primary key,
+    name        varchar(60)  not null,
+    description text null,
+    brand       varchar(20)  null,
+    photo       json         null,
+    likes       int          null
+);
+
+create table webapp.types
+(
+    id         int auto_increment
+        primary key,
+    name       varchar(15) not null,
+    deleted_at date        null
+);
+
+create table webapp.goods_types
+(
+    id      int auto_increment
+        primary key,
+    good_id int null,
+    type_id int null,
+
+    constraint goods_types_goods_id_fk
+        foreign key (good_id) references webapp.goods (id)
+            on update set null on delete set null,
+    constraint goods_types_types_id_fk
+        foreign key (type_id) references webapp.types (id)
+            on update set null on delete set null
+);
+
+create table webapp.prices
+(
+    id            int auto_increment
+        primary key,
+    from_supplier double not null,
+    for_client    double not null,
+    created_at    date   not null,
+    deleted_at    date   null,
+    good_id       int    null,
+    constraint prices_goods_id_fk
+        foreign key (good_id) references webapp.goods (id)
+            on update set null on delete set null
+);
+
+
+
+

@@ -1,4 +1,4 @@
-package ua.edu.nung.pz.model;
+package ua.edu.nung.pz.dao.entity;
 
 
 import com.google.auth.oauth2.GoogleCredentials;
@@ -14,6 +14,9 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ * URL https://firebase.google.com/docs/admin/setup
+ */
 public class Firebase {
     public static final String USER_EXISTS = "User exists";
     public static final String PASSWORD_OK = "PASSWORD_OK";
