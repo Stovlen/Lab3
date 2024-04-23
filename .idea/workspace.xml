@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="255ec345-c6d8-4d5b-b1a2-e029d0dbf3f6" name="Changes" comment="3">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Good.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Price.java" afterDir="false" />
@@ -270,6 +271,9 @@
       <workItem from="1712552669070" duration="2679000" />
       <workItem from="1712723620724" duration="1441000" />
       <workItem from="1713460557637" duration="4180000" />
+      <workItem from="1713508394898" duration="2723000" />
+      <workItem from="1713764495440" duration="870000" />
+      <workItem from="1713894339183" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <option name="closed" value="true" />
